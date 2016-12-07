@@ -197,6 +197,8 @@ include_directories(
 
 add_executable(align_client src/align_client.cpp)
 add_executable(dummy_found_object src/dummy_found_object.cpp)
+add_executable(person_follower src/person_follower.cpp)
  
 target_link_libraries(align_client ${catkin_LIBRARIES})
 target_link_libraries(dummy_found_object ${catkin_LIBRARIES})
+target_link_libraries(person_follower ${catkin_LIBRARIES})
